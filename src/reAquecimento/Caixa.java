@@ -6,7 +6,7 @@ public class Caixa {
 	
 	private Client client;
 
-	private ArrayList<Client> listaCaixas;
+	private ArrayList<Client> lst;
 	
 	public Caixa() {
 		
@@ -20,6 +20,20 @@ public class Caixa {
 		return client;
 	}
 	
-	
+	public void startClient(Client client){
+		if(!isEmpty()){
+			client = this.client;
+		}
+		else
+		{
+			client = null;
+			System.out.println("");
+		}
+		
+		
+		
+		
+		int count=0;
+	}
 	
 }
